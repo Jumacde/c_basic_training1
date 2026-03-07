@@ -33,7 +33,17 @@ int main (int argc, char** argv) {
     int j = 4;
     int h = i * j;
     printf("calculate the area of a rectangle\n");
-    printf("%d * %d = %d", i, j, h);
+    printf("%d * %d = %d\n", i, j, h);
+
+    // try if 
+    int e;
+    printf("please int a positive digit e.\n e = ");
+    scanf("%d", &e);
+    if (e > 0) {
+        printf("your inputted number is %d\n", e);
+    } else {
+        printf("%d is'nt positiv digit.\n", e);
+    }
 
     return 0;
 }
