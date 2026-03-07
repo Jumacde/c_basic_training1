@@ -46,6 +46,23 @@ int main (int argc, char** argv) {
     } else {
         printf("%d is'nt positiv digit.\n", e);
     }
+    
+    // try switch
+    int num;
+    printf("num = ");
+    scanf("%d", &num);
+    switch (num)
+    {
+    case 1:
+        printf("%d is one", num);
+        break;
+    case 2:
+        printf("%d is two", num);
+        break;
+    default:
+        printf("%d is not one and two", num);
+        break;
+    }
 
     return 0;
 }
