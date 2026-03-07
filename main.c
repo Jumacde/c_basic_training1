@@ -39,8 +39,10 @@ int main (int argc, char** argv) {
     int e;
     printf("please int a positive digit e.\n e = ");
     scanf("%d", &e);
-    if (e > 0) {
+    if (e > 0 && e != j) {
         printf("your inputted number is %d\n", e);
+    } else if (e == j) {
+        printf("%d is 4", e);
     } else {
         printf("%d is'nt positiv digit.\n", e);
     }
