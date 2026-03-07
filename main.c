@@ -28,7 +28,8 @@ int main (int argc, char** argv) {
     printf("%d %% %d = %d\n", x, y, x % y);
 
     // rectangle
-    int i = 9;
+    double i1 = 9.0;
+    int i = (int) i1; // try cast form float num to int num.
     int j = 4;
     int h = i * j;
     printf("calculate the area of a rectangle\n");
