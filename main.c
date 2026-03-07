@@ -60,9 +60,18 @@ int main (int argc, char** argv) {
         printf("%d is two", num);
         break;
     default:
-        printf("%d is not one and two", num);
+        printf("%d is not one and two\n", num);
         break;
     }
 
+    // try for
+    printf("\n");
+    int r;
+    //printf("r = ");
+    //scanf("%d", &r);
+    for (r = 0; r < 5; r++) {
+        printf("%d", r);
+    }
+    printf("\n");
     return 0;
 }
